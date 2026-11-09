@@ -1,0 +1,31 @@
+ion-content {
+  --background: #ffffff;
+}
+
+ion-searchbar {
+  --background: #f4f6fb;
+  --border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+ion-item {
+  --background: #ffffff;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(59, 66, 98, 0.08);
+  
+  ion-label {
+    h2 {
+      font-weight: bold;
+      color: #3b4262;
+    }
+    p {
+      color: #555555;
+    }
+  }
+}
+
+ion-fab-button {
+  --background: #3b4262;
+  --color: #f0c674;
+}
